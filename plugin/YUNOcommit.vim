@@ -20,7 +20,7 @@ function! s:checkCommits()
         let s:writes = 0
         echohl Todo
         redraw
-        echo 'ლ(ಠ_ಠლ) Y U NO commit?????'
+        echo '\e[31m ლ(ಠ_ಠლ) Y U NO commit?????\e[0m'
         echohl None
     endif
 
