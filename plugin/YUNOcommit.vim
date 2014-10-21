@@ -18,9 +18,9 @@ function! s:checkCommits()
 
     if s:writes >= s:max_writes
         let s:writes = 0
-        echohl Todo
+        echohl ErrorMsg
         redraw
-        echo '\e[31m ლ(ಠ_ಠლ) Y U NO commit?????\e[0m'
+        echo 'ლ(ಠ_ಠლ) Y U NO commit?????'
         echohl None
     endif
 
